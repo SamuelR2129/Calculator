@@ -1,6 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8"> 
+    <link rel="stylesheet" href="calculator-style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     <title>Calculator</title>
 </head>
@@ -8,35 +9,33 @@
     <main class="main">
         <div class="calc-container">
             <div class="calc-content">
-
                 <div class="display-container">
                     <span class="display-content">00000</span>
                 </div>
 
-                <div class="digit-container">
-                    <div class="digit-content">
-                        <button class="digit-button">0</button>
-                        <button class="digit-button">1</button>
-                        <button class="digit-button">2</button>
-                        <button class="digit-button">3</button>
-                        <button class="digit-button">4</button>
-                        <button class="digit-button">5</button>
-                        <button class="digit-button">6</button>
-                        <button class="digit-button">7</button>
-                        <button class="digit-button">8</button>
-                        <button class="digit-button">9</button>
-                        <button class="digit-button">.</button>
-                        <button class="equals">=</button>
-                        <button class="operator">x</button>
-                        <button class="operator">-</button>
-                        <button class="operator">+</button>
-                        <button class="operator">÷</button>
-                        <button class="clear">C</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="digit-content">
+                    <button class="clear">C</button>
+                    <button class="digit-button">0</button>
+                    <button class="digit-button">1</button>
+                    <button class="operator">+</button>
+                    <button class="digit-button">2</button>
+                    <button class="digit-button">3</button>
+                    <button class="digit-button">4</button>
+                    <button class="operator">-</button>
+                    <button class="digit-button">5</button>
+                    <button class="digit-button">6</button>
+                    <button class="digit-button">7</button>
+                    <button class="operator">x</button>
+                    <button class="digit-button">8</button>
+                    <button class="digit-button">9</button>
+                    <button class="digit-button" id="decimal">.</button>
+                    <button class="operator">÷</button>
+                    <button id="plusMinus">-/+</button>
+                    <button class="equals">=</button>
 
+                </div> 
+            </div>           
+        </div>
     </main>
 </body>
 <script src="calculator-script.js"></script>
